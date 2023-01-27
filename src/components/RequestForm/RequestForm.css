@@ -1,0 +1,46 @@
+.form-header-nav {
+  display: grid;
+  direction: rtl;
+}
+
+.form-header-nav button {
+  text-decoration: none;
+  height: 30px;
+  width: 30px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 10px 0px;
+}
+
+.form-rows {
+  width: 400px;
+  margin: 40px auto;
+  min-height: 100px;
+}
+
+.form-row input {
+  border: none;
+  height: 25px;
+  border-bottom: 1px solid #768fa6;
+}
+
+footer {
+  display: grid;
+  direction: rtl;
+}
+
+.form-footer-nav {
+  width: 210px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  direction: ltr;
+  grid-gap: 10px;
+}
+
+.form-footer-nav button {
+  height: 40px;
+  width: 100px;
+}
